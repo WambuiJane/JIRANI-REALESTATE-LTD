@@ -1,0 +1,80 @@
+﻿body {margin:0px;
+      padding:0px;
+}
+#header{
+    background-color:black;
+    color:gold;
+    text-align:justify;
+    text-underline-position:under;
+    font-size:25px;
+    font-family:Algerian;
+}
+.carousel{
+    display:flex;
+    height:30rem;
+    gap:1rem
+}
+.carousel >div{
+    flex:1;
+    width:150px;
+    height:auto;
+    border-radius:1rem;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:auto 500px;
+    transition:all.8s cubic-bezier(.25,.4,.45,1.4);
+}
+.carousel >div:hover{
+    flex:5;
+}
+
+
+#nav {
+    background-color: darkolivegreen;
+    color: gold;
+}
+.NavBar{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    background-color:white;
+    padding:15px;
+}
+.NavBar a{
+    text-decoration:none;
+    color:inherit;
+}
+.LOGO{
+    margin-right:50px;
+
+}
+.list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+#toggler,.NavBar-label{
+    display:none;
+}
+#footer {
+    text-align: center;
+    background-color:ghostwhite;
+    color:black;
+    font-size: 18px;
+}
+#cont {
+    display:flex;
+    font-size:36px;
+    text-shadow:2px;
+    width:450px;
+    margin:15px;
+    margin-left:32%;
+    align-content:center;
+    justify-content:space-evenly;
+}
+i:hover{
+    color:lightseagreen;
+
+}
+
